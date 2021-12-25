@@ -1,9 +1,20 @@
 h1 {
-  color: red;
   font-family: "Nunito", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 72px;
+  margin-top: 182px;
+  margin-left: 250px;
+  position: absolute;
+  width: 580px;
 }
 
-p {
-  font-family: "Nunito", sans-serif;
+img {
+  width: 100%;
+}
+
+div {
+  position: absolute;
+  width: 1440px;
+  height: 265px;
+  margin-top: 135px;
 }
