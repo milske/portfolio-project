@@ -1,3 +1,33 @@
+.nav-logo {
+  max-width: 100px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: plum;
+}
+
 .heading-homepage {
   font-family: "Nunito", sans-serif;
   font-weight: normal;
@@ -87,7 +117,6 @@ p {
   }
   .homepage-photos div {
     width: 150px;
-    flex-direction: column;
   }
 
   .p-about {
