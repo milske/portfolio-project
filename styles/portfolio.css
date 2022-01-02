@@ -25,29 +25,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: plum;
-}
-
-.heading-homepage {
-  font-family: "Nunito", sans-serif;
-  font-weight: normal;
-  font-size: 72px;
-  position: absolute;
-  margin: 50px;
-}
-
-.about-heading {
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-weight: normal;
-  font-size: 72px;
-}
-
-.work-heading {
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-weight: normal;
-  font-size: 72px;
+  color: grey;
 }
 
 h1 {
@@ -55,24 +33,29 @@ h1 {
   font-family: "Nunito", sans-serif;
   font-weight: normal;
   font-size: 72px;
+  margin: 40px;
 }
 
-h2,
-h4 {
+h2 {
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: normal;
-}
-
-.overlay {
-  margin-bottom: 50px;
-  width: 100%;
+  margin-top: 20px;
 }
 
 p {
   font-size: 15px;
   font-family: "Nunito", sans-serif;
   font-weight: normal;
+}
+
+img {
+  border-radius: 4px;
+}
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 .contact-p {
@@ -82,20 +65,12 @@ p {
   font-weight: normal;
 }
 
-.workpage {
-  text-align: center;
+.contact-link {
+  color: black;
 }
 
-.homepage-photos {
-  display: flex;
-  justify-content: center;
-}
-
-.homepage-photos div {
-  width: 250px;
-  text-align: center;
-  padding: 5px;
-  margin: 15px;
+.contact-link:hover {
+  color: grey;
 }
 
 .logo {
@@ -104,11 +79,10 @@ p {
   margin: 0 auto;
 }
 
-.workpage-photo {
-  width: 600px;
+.contact-photo {
+  width: 400px;
   display: block;
   margin: 0 auto;
-  padding: 30px;
 }
 
 footer {
@@ -118,16 +92,16 @@ footer {
 footer .email-link {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Nunito", sans-serif;
   font-weight: normal;
 }
 
 footer .email-link:hover {
-  color: plum;
+  color: grey;
 }
 
-footer .social-links a {
+footer .social-link a {
   margin: 0 20px;
   color: black;
   font-size: 18px;
@@ -137,16 +111,17 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover {
+footer .social-link a:hover {
   color: grey;
   background-color: black;
 }
 
 @media (max-width: 700px) {
-  .heading-homepage {
-    font-size: 35px;
+  h1 {
+    font-size: 45px;
   }
-  .homepage-photos div {
+
+  .photos-container {
     width: 150px;
   }
 
@@ -157,5 +132,10 @@ footer .social-links a:hover {
 
   .insta {
     text-align: center;
+  }
+
+  .contact-photo {
+    width: 200px;
+    margin-top: 50px;
   }
 }

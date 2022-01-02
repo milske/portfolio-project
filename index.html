@@ -22,104 +22,119 @@
     />
 
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <meta
+      name="description"
+      content="The Fine Pastry Barcelona is your next go to place for desserts"
+    />
     <title>The Fine Pastry Barcelona</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="The Fine Pastry Barcelona">
           <img
             src="images/logo.png"
             class="nav-logo d-none d-md-block"
-            alt=""
+            alt="the fine pastry Barcelona logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">Abous Us</a>
+            <a href="/about.html" title="About Us">Abous Us</a>
           </li>
+
           <li>
-            <a href="/work.html">Recipes</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Us">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
-    <h1 class="heading-homepage">The Fine Pastry Barcelona</h1>
-    <img src="images/overlay.png" class="overlay" alt="" />
-
-    <div class="homepage-photos mt-5">
-      <div>
-        <img
-          src="images/frambuesa-cake.jpg"
-          class="img-fluid rounded border border-dark"
-          alt=""
-        />
-        <p class="text-center">Ganache Chocolate with rasberries</p>
-      </div>
-      <div>
-        <img
-          src="images/lemonpie.jpg"
-          class="img-fluid rounded border border-dark"
-          alt=""
-        />
-        <p class="text-center">Lemonpie</p>
-      </div>
-
-      <div>
-        <img
-          src="images/xmas-cake.jpg"
-          class="img-fluid rounded border border-dark"
-          alt=""
-        />
-        <p class="text-center">Whitechocolate birthdaycake</p>
-      </div>
-      <div>
-        <img
-          src="images/strawberrycheese-cake.jpg"
-          class="img-fluid rounded border border-dark"
-          alt=""
-        />
-        <p class="text-center">
-          Mascarpone cream, sable bretón, mango and orange
-        </p>
-      </div>
-
-      <div>
-        <img
-          src="images/whitechocolate-cake.jpg"
-          class="img-fluid rounded border border-dark"
-          alt=""
-        />
-        <p class="text-center">Pastry cream strawberry pie</p>
-      </div>
-      <div>
-        <img
-          src="images/cheese-cake.jpg"
-          class="img-fluid rounded border border-dark"
-          alt=""
-        />
-        <p class="text-center">Rasberry pie</p>
+    <h1>The Fine Pastry Barcelona</h1>
+    <div class="container photos-container">
+      <div class="row">
+        <div class="col-sm-2">
+          <img
+            src="images/frambuesa-cake.jpg"
+            class="img-fluid border-dark shadow-lg"
+            alt="cake"
+          />
+          <p class="text-center mt-3">Ganache Chocolate with rasberries</p>
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="images/lemonpie.jpg"
+            class="img-fluid border-dark shadow-lg"
+            alt="cake"
+          />
+          <p class="text-center mt-3">Lemonpie</p>
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="images/xmas-cake.jpg"
+            class="img-fluid border-dark shadow-lg"
+            alt="cake"
+          />
+          <p class="text-center mt-3">
+            Chocolate cake with fruits of the forest
+          </p>
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="images/strawberrycheese-cake.jpg"
+            class="img-fluid border-dark shadow-lg"
+            alt="cake"
+          />
+          <p class="text-center mt-3">Strawberry cheese cake</p>
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="images/whitechocolate-cake.jpg"
+            class="img-fluid border-dark shadow-lg"
+            alt="cake"
+          />
+          <p class="text-center mt-3">Whitechocolate cake</p>
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="images/cheese-cake.jpg"
+            class="img-fluid border-dark shadow-lg"
+            alt="cake"
+          />
+          <p class="text-center mt-3">Rasberry pie</p>
+        </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container footer">
       <footer>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:fjfjfj@hotmail.com" class="email-link">hotmail.com</a>
+        <div class="d-flex justify-content-center mb-3">
+          <a
+            href="mailto:thefinepastryb@gmail.com"
+            class="email-link"
+            title="Email Us"
+            >thefinepastryb@gmail.com</a
+          >
         </div>
-        <div class="social-links d-flex justify-content-center">
+        <div class="social-link d-flex justify-content-center">
           <a
             href="https://www.instagram.com/thefinepastrybarcelona/"
             target="_blank"
+            title="Instagram Profile"
             ><i class="fab fa-instagram"> </i
           ></a>
-          <a href="#" target="_blank"><i class="fab fa-github"> </i></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Milla Nerg and it is
+          <a
+            href="https://github.com/milske/portfolio-project"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            open-sourced <i class="fab fa-github"> </i
+          ></a>
+        </p>
       </footer>
     </div>
     <script

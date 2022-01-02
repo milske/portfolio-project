@@ -23,19 +23,103 @@
     />
 
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>About The Fine Pastry Barcelona</title>
+    <meta
+      name="description"
+      content="Contact information of the Fine Pastry Barcelona"
+    />
+    <title>Contact Us - The Fine Pastry Barcelona</title>
   </head>
   <body>
-    <h1 class="text-center mt-5">Contact us</h1>
-    <h4>Email</h4>
-    <p class="contact-p">
-      <a href="something@hotmail.com">some@homtail.com</a>
-    </p>
-    <h4>Instagram</h4>
-    <p class="contact-p">
-      <a href="something@hotmail.com">insta</a>
-    </p>
-    <a href="/">homepage</a>
-    <a href="work.html">workpage</a>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="The Fine Pastry Barcelona">
+          <img
+            src="images/logo.png"
+            class="nav-logo d-none d-md-block"
+            alt="the fine pastry Barcelona logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Us">Abous Us</a>
+          </li>
+
+          <li class="active">
+            <a href="/contact.html" title="Contact Us">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <h1 class="text-center mt-5 mb-5">Contact us</h1>
+          <h2>Email</h2>
+          <p class="contact-p">
+            <a
+              href="mailto:thefinepastryb@gmail.com"
+              class="contact-link"
+              title="Contact by email"
+              >thefinepastryb@gmail.com</a
+            >
+          </p>
+          <h2>Instagram</h2>
+          <p class="contact-p">
+            <a
+              href="https://www.instagram.com/thefinepastrybarcelona/"
+              target="_blank"
+              class="contact-link"
+              title="Instagram account"
+              >@thefinepastrybarcelona
+            </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="images/chocolate.jpg"
+            alt="cake photo"
+            class="img-fluid shadow-lg contact-photo"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container footer">
+      <footer>
+        <div class="d-flex justify-content-center mb-3">
+          <a
+            href="mailto:thefinepastryb@gmail.com"
+            class="email-link"
+            title="Email Us"
+            >thefinepastryb@gmail.com</a
+          >
+        </div>
+        <div class="social-link d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/thefinepastrybarcelona/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fab fa-instagram"> </i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Milla Nerg and it is
+          <a
+            href="https://github.com/milske/portfolio-project"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            open-sourced <i class="fab fa-github"> </i
+          ></a>
+        </p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
